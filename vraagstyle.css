@@ -1,0 +1,32 @@
+body {
+  background-color: #eeeeff;
+}
+
+h1 {
+  color: #660099;
+}
+
+h2 {
+  color: #660099;
+  background-color: red;
+  margin-right: 732px;
+}
+
+p.vraag {
+  color: #660099;
+}
+
+p.antwoord {
+  color: yellow;
+  background-color: yellow;
+  margin-right: 732px;
+}
+
+p.antwoord:hover {
+  color: black;
+  margin-right: 732px;
+}
+
+p#uitleg {
+  font-family: "Courier New";
+}
