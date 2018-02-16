@@ -5,9 +5,9 @@ a:link {
 }
 
 a:visited {
-  text-decoration: none;
+  text-decoration: underline;
   font-family: Georgia;
-  color: darkslategray;
+  color: darkblue;
 }
 
 a:hover {
