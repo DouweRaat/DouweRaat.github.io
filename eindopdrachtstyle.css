@@ -7,11 +7,11 @@ a:link {
 a:visited {
   text-decoration: none;
   font-family: Georgia;
-  color: darkblue;
+  color: darkslategray;
 }
 
 a:hover {
-  border: 4px solid black;
+  border: 4px solid darkblue;
   font-family: Georgia;
   color: darkblue;
 }
