@@ -43,10 +43,16 @@ th {
   background-color: white;
 }
 
-ul {
+ul.contact {
   list-style: circle none;
-  border-bottom: 4px solid black;
-  border-top: 4px solid black;
+  border-bottom: 3px solid black;
+  border-top: 3px solid black;
+  margin-right: 750px;
+}
+
+ul.biografie {
+  list-style: circle none;
+  border: 2px solid black;
   margin-right: 750px;
 }
 
