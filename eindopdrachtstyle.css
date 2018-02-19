@@ -38,9 +38,13 @@ td {
   border: 4px solid black;
 }
 
-th {
+th.naam {
   border: 4px solid black;
   background-color: white;
+}
+
+th.inhoud {
+  border: 4px solid black;
 }
 
 ul.contact {
