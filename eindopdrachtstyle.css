@@ -38,6 +38,10 @@ td {
   border: 4px solid black;
 }
 
+th {
+  border: 4px solid black;
+}
+
 ul {
   list-style: circle none;
   border-bottom: 4px solid black;
