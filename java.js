@@ -12,5 +12,5 @@ function verander(){
 
 function berekenClicks() {
   getal++;
-  clicks.innerHTML = getal;
+  clicks.innerHTML = getal + " clicks";
 }
