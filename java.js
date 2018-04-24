@@ -9,5 +9,5 @@ function functie(){
   index = Math.floor(Math.random()*plaatjes.length);
   plaatje.src = plaatjes[index];
   getal++;
-  clicks.innerHTML = getal + " clicks";
+  clicks.innerHTML = getal;
 }
