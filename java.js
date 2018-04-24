@@ -11,8 +11,3 @@ function functie(){
   getal++;
   clicks.innerHTML = getal + " clicks";
 }
-
-function berekenClicks() {
-  getal++;
-  clicks.innerHTML = getal + " clicks";
-}
