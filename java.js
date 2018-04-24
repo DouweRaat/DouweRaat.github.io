@@ -3,7 +3,7 @@ var plaatjes = ["https://s3-storage.textopus.nl/wp-content/uploads/2011/10/19133
 var button = document.getElementById("button");
 var clicks = document.getElementById("aantalkliks");
 var getal = 0;
-button.addEventListener("click", verander);
+button.addEventListener("click", functie);
 
 function functie(){
   index = Math.floor(Math.random()*plaatjes.length);
