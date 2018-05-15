@@ -7,7 +7,7 @@ var getal = 0;
 button.addEventListener("click", functie);
 
 function functie(){
-  if (plaatje.style.display == "none") {
+  if (plaatje.style.display == "none"){
     index = Math.floor(Math.random()*plaatjes.length);
     plaatje = plaatjes[index];
     getal++;
