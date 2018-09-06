@@ -1,6 +1,10 @@
-for (var i = 0; i < 10; i++) { 
+for (var i = 0; i < 25; i++) { 
  alert("STEVE JOBS!!!!!!!!!!");
 }
+var naam = prompt("Hoe heet jij?");
+var zin = document.getElementById("naam");
+alert("Welkom op deze site, " + naam);
+
 var plaatjes = ["https://s3-storage.textopus.nl/wp-content/uploads/2011/10/19133230/Steve-Jobs-1955-2011.jpg", "https://assets.entrepreneur.com/content/3x2/1300/steve-jobs-an-extraordinary-career1.jpg?width=700&crop=2:1", "https://media.wired.com/photos/5932639bedfced5820d10022/master/w_1025,c_limit/steve-jobs.jpg", "https://www.want.nl/wp-content/uploads/2017/04/stevejobsadobe.jpg"];
 var button = document.getElementById("button");
 var clicks = document.getElementById("aantalkliks");
