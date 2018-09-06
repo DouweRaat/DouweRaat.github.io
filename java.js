@@ -12,7 +12,7 @@ var clicks = document.getElementById("aantalkliks");
 var plaatje = document.getElementById("plaatje");
 var getal = 0;
 button.addEventListener("click", functie);
-button.addEventListener("click", general_kenobi);
+hello_there.addEventListener("click", general_kenobi);
 
 function functie(){
   index = Math.floor(Math.random()*plaatjes.length);
