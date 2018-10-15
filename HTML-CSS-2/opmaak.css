@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background-color: #278c25;
+  background-color: #3fbd3d;
   height: 65px;
 }
 
@@ -19,4 +19,26 @@ header h1 {
   color: black;
   text-align: center;
   text-shadow: 5px 5px 7px #000000;
+}
+
+ul {
+  background: #124211;
+  padding: 10px;
+  text-align: center;
+}
+
+ul li {
+  background: #278c25;
+  padding: 5px;
+  border: solid 2px black;
+  display: inline-block;
+}
+
+ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+ul li a:hover {
+  color: #C0C0C0;
 }
