@@ -5,7 +5,11 @@
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background-image: url(Douwreep.jpeg);
+  background-image: url(agif.gif);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  color: black;
 }
 
 header {
