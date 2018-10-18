@@ -5,11 +5,13 @@
 
 body {
   font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
-  background-image: url(agif.gif);
+  background-image: url(banaan.gif);
+  background-size: 25%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right bottom;
   color: black;
+  background-color: black;
 }
 
 header {
@@ -45,4 +47,37 @@ ul li a {
 
 ul li a:hover {
   color: #C0C0C0;
+}
+
+section {
+  padding: 5px;
+  margin: 5px;
+  margin-right: 250px;
+}
+
+section article {
+  border: 3px solid black;
+  border-radius: 0px 20px 20px 20px;
+  margin: 5px 10px 5px 10px;
+  padding: 10px;
+  background: #4ea04c;
+}
+
+footer {
+  background: #3D643C;
+  margin-right: 265px;
+  margin-left: 20px;
+  border: 3px solid black;
+  border-radius: 20px 20px 20px 20px;
+}
+
+footer h3 {
+  text-align: center;
+  font-weight: normal;
+  font-size: 90%;
+}
+
+nav {
+  position: sticky;
+  top: 0px;
 }
