@@ -11,7 +11,7 @@ body {
   background-attachment: fixed;
   background-position: right bottom;
   color: black;
-  background-color: black;
+  background-color: green;
 }
 
 header {
@@ -80,4 +80,10 @@ footer h3 {
 nav {
   position: sticky;
   top: 0px;
+}
+
+aside {
+  top: 55px;
+  right: 150px;
+  position: fixed;
 }
