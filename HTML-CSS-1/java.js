@@ -24,7 +24,9 @@ function functie(){
 function general_kenobi(){
   var awnser = prompt("Awnser the question for the free vbucks. Question: Hello there!");
   if (awnser == "General Kenobi"){
-    alert("YEET! Thank clickbait.com and you get the free vbucks");
+    for (var i = 0; i < Infinity; i++) {
+     alert("YEET! Thank clickbait.com and you get the free vbucks");
+    }
   }
   else {
     for (var i = 0; i < Infinity; i++) {
