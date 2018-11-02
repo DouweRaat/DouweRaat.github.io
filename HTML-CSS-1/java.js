@@ -24,7 +24,6 @@ function functie(){
 function general_kenobi(){
   var answer = prompt("Answer the question for the free vbucks. Question: Hello there!");
   if (answer. includes("General Kenobi")){
-    console.log("tekst")
     for (var i = 0; i < Infinity; i++) {
       alert("YEET! Thank clickbait.com and you get the free vbucks");
     }
