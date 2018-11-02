@@ -22,15 +22,16 @@ function functie(){
 }
 
 function general_kenobi(){
-  var awnser = prompt("Awnser the question for the free vbucks. Question: Hello there!");
-  if (awnser == "General Kenobi"){
+  var answer = prompt("Answer the question for the free vbucks. Question: Hello there!");
+  if (answer. includes("General Kenobi")){
+    console.log("tekst")
     for (var i = 0; i < Infinity; i++) {
-     alert("YEET! Thank clickbait.com and you get the free vbucks");
+      alert("YEET! Thank clickbait.com and you get the free vbucks");
     }
   }
   else {
     for (var i = 0; i < Infinity; i++) {
-     alert("GENERAL KENOBI!!!");
+      alert("GENERAL KENOBI!!!");
     }
   }
 }
