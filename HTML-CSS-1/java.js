@@ -11,6 +11,7 @@ var hello_there = document.getElementById("hello_there");
 var clicks = document.getElementById("aantalkliks");
 var plaatje = document.getElementById("plaatje");
 var getal = 0;
+var x = document.getElementById("myAudio");
 button.addEventListener("click", functie);
 hello_there.addEventListener("click", general_kenobi);
 
@@ -24,6 +25,7 @@ function functie(){
 function general_kenobi(){
   var answer = prompt("Answer the question for the free vbucks. Question: Hello there!");
   if (answer. includes("General Kenobi")){
+    x.play();
     for (var i = 0; i < Infinity; i++) {
       alert("YEET! Thank clickbait.com and you get the free vbucks");
     }
