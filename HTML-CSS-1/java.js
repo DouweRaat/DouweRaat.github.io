@@ -19,15 +19,27 @@ function functie(){
   index = Math.floor(Math.random()*plaatjes.length);
   plaatje = plaatjes[index];
   getal++;
-  clicks.innerHTML = getal;
+  if (getal == 1){
+    clicks.innerHTML = getal + " vbuck";
+  }
+  else{
+    clicks.innerHTML = getal + " vbucks"
+  }
 }
 
 function general_kenobi(){
   var answer = prompt("Answer the question for the free vbucks. Question: Hello there!");
   if (answer. includes("General Kenobi")){
     x.play();
-    for (var i = 0; i < Infinity; i++) {
-      alert("YEET! Thank clickbait.com and you get the free vbucks");
+    if (getal == 1){
+      for (var i = 0; i < Infinity; i++) {
+        alert("YEET! Thank clickbait.com and get " + getal + " vbuck.");
+      }
+    }
+    else{
+      for (var i = 0; i < Infinity; i++) {
+        alert("YEET! Thank clickbait.com and get " + getal + " vbucks.");
+      }
     }
   }
   else {
