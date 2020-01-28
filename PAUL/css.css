@@ -1,0 +1,168 @@
+* {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+body {
+  background: #292929;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.logo {
+  width: 100%;
+}
+
+article {
+  border-radius: 20px;
+  background-color: #404040;
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+iframe[src*="youtube"] {
+  border-radius: 20px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+iframe[src*="www.google.com/maps"] {
+  border-radius: 20px;
+  margin-top: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+#locatiesdiv {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "amstel ooster"
+}
+
+#amstelpark {
+  grid-area: amstel;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#oosterpark {
+  grid-area: ooster;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#partnersh2 {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #202020;
+  border-left: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffa31a;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cd7100;
+}
+
+ul.partnerlogos {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.partnerlogos li.partnerlogos {
+  display: inline;
+}
+
+img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mail {
+  width: 10%;
+  height: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffa31a;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#currentpage {
+  color: #ffffff;
+}
+
+#opennav {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
