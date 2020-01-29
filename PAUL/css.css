@@ -93,8 +93,8 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
 }
 
 #mail {
-  width: 10%;
-  height: 10%;
+  width: 50%;
+  height: 50%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -196,5 +196,9 @@ a[href="paul.html"] {
     margin-left: auto;
     height: 400px;
     width: 400px;
+  }
+  #mail {
+    width: 10%;
+    height: 10%;
   }
 }
