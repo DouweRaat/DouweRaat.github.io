@@ -30,6 +30,10 @@ article {
   padding-bottom: 5px;
 }
 
+p {
+  font-size: 16px;
+}
+
 iframe[src*="youtube"] {
   border-radius: 20px;
   margin-top: 10px;
