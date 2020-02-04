@@ -28,7 +28,6 @@ article {
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  font-size: 30px;
 }
 
 iframe[src*="youtube"] {
@@ -85,6 +84,12 @@ ul.partnerlogos {
 
 ul.partnerlogos li.partnerlogos {
   display: inline;
+  margin: 30px;
+}
+
+img.partnerlogos {
+  width: 25%;
+  height: 25%;
 }
 
 img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
@@ -201,5 +206,10 @@ a[href="paul.html"] {
   #mail {
     width: 10%;
     height: 10%;
+  }
+  ul.partnerlogos li.partnerlogos {margin: 0px;}
+  img.partnerlogos {
+    width: 7%;
+    height: 7%;
   }
 }
