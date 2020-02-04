@@ -1,0 +1,220 @@
+* {
+  color: #ffffff;
+  font-family: sans-serif;
+}
+
+body {
+  background: #292929;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.logo {
+  width: 100%;
+}
+
+article {
+  border-radius: 20px;
+  background-color: #404040;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+p {
+  font-size: 32px;
+}
+
+iframe[src*="youtube"] {
+  border-radius: 20px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+iframe[src*="www.google.com/maps"] {
+  border-radius: 20px;
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: 600px;
+}
+
+.centertext {
+  text-align: center;
+}
+
+#partnersh2 {
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #202020;
+  border-left: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffa31a;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cd7100;
+}
+
+ul.partnerlogos {
+  list-style-type: none;
+  text-align: center;
+}
+
+ul.partnerlogos li.partnerlogos {
+  display: inline;
+  margin: 30px;
+}
+
+img.partnerlogos {
+  width: 25%;
+  height: 25%;
+}
+
+img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#mail {
+  width: 50%;
+  height: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 15px;
+}
+
+a[href="paul.html"] {
+  margin-top: 100px;
+}
+
+.paulgeenlink {
+  margin-top: 100px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 55px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #ffa31a;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 100px;
+  margin-left: 50px;
+}
+
+#currentpage {
+  color: #ffffff;
+}
+
+#opennav {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  font-size: 55px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 1024px) {
+  .sidenav {padding-top: 60px;}
+  .sidenav a {font-size: 25px;}
+  article {width: 50%;}
+  #logo {width: 25%;}
+  #opennav {
+    font-size: 30px;
+    left: 16px;
+  }
+  .sidenav .closebtn {font-size: 36px;}
+  a[href="paul.html"] {margin-top: 0px;}
+  .paulgeenlink {margin-top: 0px;}
+  iframe[src*="youtube"] {width: 50%;}
+  iframe[src*="www.google.com/maps"] {
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 300px;
+    height: 300px;
+  }
+  #locatiesdiv {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "amstel ooster"
+  }
+  #amstelpark {
+    grid-area: amstel;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 400px;
+  }
+  #oosterpark {
+    grid-area: ooster;
+    display: block;
+    margin-left: auto;
+    height: 400px;
+    width: 400px;
+  }
+  #mail {
+    width: 10%;
+    height: 10%;
+  }
+  ul.partnerlogos li.partnerlogos {margin: 0px;}
+  img.partnerlogos {
+    width: 7%;
+    height: 7%;
+  }
+  p {font-size: 16px;}
+}
