@@ -12,10 +12,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
+  margin-top: 100px;
 }
 
 .logo {
   width: 100%;
+}
+
+header {
+  top: 100px;
 }
 
 article {
@@ -124,11 +129,7 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   padding-top: 15px;
 }
 
-a[href="index.html"] {
-  margin-top: 100px;
-}
-
-.indexgeenlink {
+.index {
   margin-top: 100px;
 }
 
@@ -175,8 +176,7 @@ a[href="index.html"] {
     left: 16px;
   }
   .sidenav .closebtn {font-size: 36px;}
-  a[href="index.html"] {margin-top: 0px;}
-  .indexgeenlink {margin-top: 0px;}
+  .index {margin-top: 0px;}
   iframe[src*="youtube"] {width: 50%;}
   iframe[src*="www.google.com/maps"] {
     border-radius: 20px;
