@@ -124,11 +124,11 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   padding-top: 15px;
 }
 
-a[href="paul.html"] {
+a[href="index.html"] {
   margin-top: 100px;
 }
 
-.paulgeenlink {
+.indexgeenlink {
   margin-top: 100px;
 }
 
@@ -175,8 +175,8 @@ a[href="paul.html"] {
     left: 16px;
   }
   .sidenav .closebtn {font-size: 36px;}
-  a[href="paul.html"] {margin-top: 0px;}
-  .paulgeenlink {margin-top: 0px;}
+  a[href="index.html"] {margin-top: 0px;}
+  .indexgeenlink {margin-top: 0px;}
   iframe[src*="youtube"] {width: 50%;}
   iframe[src*="www.google.com/maps"] {
     border-radius: 20px;
