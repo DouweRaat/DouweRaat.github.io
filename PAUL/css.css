@@ -12,7 +12,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .logo {
@@ -130,7 +130,7 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
 }
 
 .index {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .sidenav a {
@@ -170,7 +170,10 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   .sidenav {padding-top: 60px;}
   .sidenav a {font-size: 25px;}
   article {width: 50%;}
-  #logo {width: 25%;}
+  #logo {
+    width: 25%;
+    margin-top: 0px;
+  }
   #opennav {
     font-size: 30px;
     left: 16px;
