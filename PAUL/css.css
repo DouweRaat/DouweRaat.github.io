@@ -214,6 +214,10 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   cursor: url('hand_cursor.png'), auto;
 }
 
+#opennav:hover {
+  color: #ffa31a;
+}
+
 .theme-switch-wrapper {
   display: flex;
   align-items: center;
