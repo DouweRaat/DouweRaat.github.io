@@ -9,6 +9,7 @@
   --sidenav-link: #818181;
   --slider-color: #ccc;
   --slider-background: #818181;
+  --selection-color: #000000;
 }
 
 [data-theme="light"] {
@@ -22,11 +23,13 @@
   --sidenav-link: #292929;
   --slider-color: #fff;
   --slider-background: #818181;
+  --selection-color: #ffffff;
 }
 
 * {
   color: var(--text-color);
   font-family: sans-serif;
+  cursor: url('cursor.png'), auto;
 }
 
 body {
@@ -35,6 +38,7 @@ body {
 
 a > #logo {
   width: 100%;
+  cursor: url('hand_cursor.png'), auto;
 }
 
 .logo {
@@ -43,6 +47,10 @@ a > #logo {
   margin-right: auto;
   width: 60%;
   margin-top: 60px;
+}
+
+a.logo {
+  cursor: url('hand_cursor.png'), auto;
 }
 
 header {
@@ -166,6 +174,7 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   color: var(--sidenav-link);
   display: block;
   transition: 0.3s;
+  cursor: url('hand_cursor.png'), auto;
 }
 
 .sidenav a:hover {
@@ -189,7 +198,7 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   top: 8px;
   left: 8px;
   font-size: 55px;
-  cursor: pointer;
+  cursor: url('hand_cursor.png'), auto;
 }
 
 .theme-switch-wrapper {
@@ -216,7 +225,7 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
 .slider {
   background-color: var(--slider-background);
   bottom: 0;
-  cursor: pointer;
+  cursor: url('hand_cursor.png'), auto;
   left: 0;
   position: absolute;
   right: 0;
@@ -249,6 +258,16 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+::-moz-selection {
+  color: var(--selection-color);
+  background: #ffa31a;
+}
+
+::selection {
+  color: var(--selection-color);
+  background: #ffa31a;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -329,7 +348,7 @@ input:checked + .slider:before {
   .slider {
     background-color: var(--slider-background);
     bottom: 0;
-    cursor: pointer;
+    cursor: url('hand_cursor.png'), auto;
     left: 0;
     position: absolute;
     right: 0;
