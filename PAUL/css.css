@@ -32,6 +32,14 @@
   cursor: url('cursor.png'), auto;
 }
 
+a {
+  cursor: url('hand_cursor.png'), auto;
+}
+
+li.halloikbeneenli {
+  cursor: url('text_cursor.png'), auto;
+}
+
 body {
   background: var(--background-color);
 }
@@ -71,6 +79,11 @@ article {
 
 p {
   font-size: 32px;
+  cursor: url('text_cursor.png'), auto;
+}
+
+h2 {
+  cursor: url('text_cursor.png'), auto;
 }
 
 iframe[src*="youtube"] {
