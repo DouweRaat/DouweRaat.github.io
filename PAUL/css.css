@@ -29,7 +29,7 @@
 * {
   color: var(--text-color);
   font-family: sans-serif;
-  cursor: url('cursor.png'), auto;
+  cursor: url('bbcbig_black_cursor.png'), auto;
 }
 
 a {
@@ -146,6 +146,7 @@ ul.partnerlogos li.partnerlogos {
 img.partnerlogos {
   width: 25%;
   height: 25%;
+  cursor: url('hand_cursor.png'), auto;
 }
 
 img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
@@ -161,6 +162,10 @@ img[src*="https://image.flaticon.com/icons/png/512/8/8807.png"] {
   margin-left: auto;
   margin-right: auto;
   margin-top: 90px;
+}
+
+img[src*="https://www.klascement.net/files/8/4/5/7/8/l/mail-1454731_960_720.png"] {
+  cursor: url('hand_cursor.png'), auto;
 }
 
 .sidenav {
