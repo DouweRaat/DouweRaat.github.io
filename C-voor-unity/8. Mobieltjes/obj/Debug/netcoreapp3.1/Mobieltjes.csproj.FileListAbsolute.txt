@@ -1,0 +1,13 @@
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\bin\Debug\netcoreapp3.1\Mobieltjes.exe
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\bin\Debug\netcoreapp3.1\Mobieltjes.deps.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\bin\Debug\netcoreapp3.1\Mobieltjes.runtimeconfig.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\bin\Debug\netcoreapp3.1\Mobieltjes.runtimeconfig.dev.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\bin\Debug\netcoreapp3.1\Mobieltjes.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\bin\Debug\netcoreapp3.1\Mobieltjes.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.AssemblyInfo.cs
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\8. Mobieltjes\obj\Debug\netcoreapp3.1\Mobieltjes.genruntimeconfig.cache
