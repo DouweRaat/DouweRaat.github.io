@@ -1,0 +1,39 @@
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\bin\Debug\netcoreapp3.1\Boodschappen.exe
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\bin\Debug\netcoreapp3.1\Boodschappen.deps.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\bin\Debug\netcoreapp3.1\Boodschappen.runtimeconfig.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\bin\Debug\netcoreapp3.1\Boodschappen.runtimeconfig.dev.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\bin\Debug\netcoreapp3.1\Boodschappen.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\bin\Debug\netcoreapp3.1\Boodschappen.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.AssemblyInfo.cs
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\2. Boodschappen\obj\Debug\netcoreapp3.1\Boodschappen.genruntimeconfig.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.AssemblyInfo.cs
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\bin\Debug\netcoreapp3.1\Boodschappen.exe
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\bin\Debug\netcoreapp3.1\Boodschappen.deps.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\bin\Debug\netcoreapp3.1\Boodschappen.runtimeconfig.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\bin\Debug\netcoreapp3.1\Boodschappen.runtimeconfig.dev.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\bin\Debug\netcoreapp3.1\Boodschappen.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\bin\Debug\netcoreapp3.1\Boodschappen.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\6. Boodschappen (BTW in aparte methode)\obj\Debug\netcoreapp3.1\Boodschappen.genruntimeconfig.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.csprojAssemblyReference.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.AssemblyInfo.cs
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\bin\Debug\netcoreapp3.1\Boodschappen.exe
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\bin\Debug\netcoreapp3.1\Boodschappen.deps.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\bin\Debug\netcoreapp3.1\Boodschappen.runtimeconfig.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\bin\Debug\netcoreapp3.1\Boodschappen.runtimeconfig.dev.json
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\bin\Debug\netcoreapp3.1\Boodschappen.dll
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\bin\Debug\netcoreapp3.1\Boodschappen.pdb
+C:\Users\Gebruiker\Desktop\School\Coderclass\C#\Oefeningen\7. Boodschappen (classes)\obj\Debug\netcoreapp3.1\Boodschappen.genruntimeconfig.cache
