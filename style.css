@@ -1,0 +1,77 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.bigImage {
+    width: calc(50% - 10px);
+    height: auto;
+    margin-bottom: 20px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.smallImage {
+    width: calc(33% - 10px);
+    height: auto;
+    margin-bottom: 20px;
+    display: inline-block;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+/* #LEGOimage, #HOLOimage, #QUESTimage, #BOBimage, #CPPimage {
+    animation: imageFade 5s infinite;
+    animation-delay: 2.5s;
+} */
+
+@media only screen and (min-width: 1024px) {
+    .bigImage:hover {
+        transform: scale(1.05);
+    }
+    
+    .smallImage:hover {
+        transform: scale(1.05);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        -webkit-overflow-scrolling: touch;
+        scroll-snap-type: x mandatory;
+    }
+
+    .bigImage,
+    .smallImage {
+        width: 100%;
+        height: auto;
+        margin-right: 10px;
+        scroll-snap-align: center;
+    }
+
+    .smallImage:last-child {
+        margin-right: 0;
+    }
+}
+
+@keyframes imageFade {
+    40%, 60% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+}
