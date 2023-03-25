@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Image Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			box-sizing: border-box;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		
+		.bigImage {
+			width: calc(50% - 10px);
+			height: auto;
+			margin-bottom: 20px;
+			display: block;
+			object-fit: cover;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+		
+		.smallImage {
+			width: calc(33% - 10px);
+			height: auto;
+			margin-bottom: 20px;
+			display: inline-block;
+			object-fit: cover;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+		}
+
+		@media only screen and (max-width: 980px) {
+			.container {
+				flex-wrap: nowrap;
+				overflow-x: scroll;
+				-webkit-overflow-scrolling: touch;
+				scroll-snap-type: x mandatory;
+			}
+
+			.bigImage,
+			.smallImage {
+				width: 100%;
+				height: auto;
+				margin-right: 10px;
+				scroll-snap-align: center;
+			}
+
+			.smallImage:last-child {
+				margin-right: 0;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="images/LEGO1.png" class="bigImage" alt="Big Image 1">
+		<img src="images/HOLO2.jpg" class="bigImage" alt="Big Image 2">
+		<img src="images/QUEST1.png" class="smallImage" alt="Small Image 1">
+		<img src="images/BOB1.PNG" class="smallImage" alt="Small Image 2">
+		<img src="images/C++1.svg.png" class="smallImage" alt="Small Image 3">
+	</div>
+</body>
+</html>
