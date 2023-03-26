@@ -1,3 +1,5 @@
+//<------------------------------------------------ Image switcher ------------------------------------------------------------>
+
 legoImage = document.getElementById('LEGOimage');
 legoImages = ['images/LEGO1.png', 'images/LEGO2.jpg', 'images/LEGO3.png', 'images/LEGO4.jpg'];
 var legoIndex = 1;
@@ -31,3 +33,82 @@ function updateImages() {
     cppIndex = (cppIndex + 1) % cppImages.length;
 }
 setInterval(updateImages, 5000)
+
+//<------------------------------------------------ Pop-up code ------------------------------------------------------------>
+//Lego
+var legoModal = document.getElementById("legoModal");
+var legoSpan = document.getElementsByClassName("close")[0];
+
+legoImage.onclick = function() {
+    legoModal.style.display = "block";
+}
+
+legoSpan.onclick = function() {
+    legoModal.style.display = "none";
+}
+
+//holo
+var holoModal = document.getElementById("holoModal");
+var holoSpan = document.getElementsByClassName("close")[1];
+
+holoImage.onclick = function() {
+    holoModal.style.display = "block";
+}
+
+holoSpan.onclick = function() {
+    holoModal.style.display = "none";
+}
+
+//quest
+var questModal = document.getElementById("questModal");
+var questSpan = document.getElementsByClassName("close")[2];
+
+questImage.onclick = function() {
+    questModal.style.display = "block";
+}
+
+questSpan.onclick = function() {
+    questModal.style.display = "none";
+}
+
+//bob
+var bobModal = document.getElementById("bobModal");
+var bobSpan = document.getElementsByClassName("close")[3];
+
+bobImage.onclick = function() {
+    bobModal.style.display = "block";
+}
+
+bobSpan.onclick = function() {
+    bobModal.style.display = "none";
+}
+
+//cpp
+var cppModal = document.getElementById("cppModal");
+var cppSpan = document.getElementsByClassName("close")[4];
+
+cppImage.onclick = function() {
+    cppModal.style.display = "block";
+}
+
+cppSpan.onclick = function() {
+    cppModal.style.display = "none";
+}
+
+window.onclick = function(event) {
+    if (event.target == legoModal) {
+        legoModal.style.display = "none";
+    }
+    else if (event.target == holoModal) {
+        holoModal.style.display = "none";
+    }
+    else if (event.target == questModal) {
+        questModal.style.display = "none";
+    }
+    else if (event.target == bobModal) {
+        bobModal.style.display = "none";
+    }
+    else if (event.target == cppModal) {
+        cppModal.style.display = "none";
+    }
+}
