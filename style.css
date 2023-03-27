@@ -182,10 +182,14 @@ footer {
 
     .bigImage,
     .smallImage {
-        width: 100%;
+        width: 75%;
         height: auto;
         margin-right: 10px;
         scroll-snap-align: center;
+    }
+
+    .smallImage:last-child {
+        margin-right: 0;
     }
 
     header {
@@ -203,7 +207,7 @@ footer {
     }
 
     footer {
-        width: 40%;
+        width: 50%;
         grid-gap: 3vw;
     }
 
