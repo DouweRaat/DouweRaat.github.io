@@ -13,7 +13,7 @@ header {
 
 header > h1 {
     width: 100%;
-    font-size: calc(min(14vh, 15vw));
+    font-size: calc(min(15vh, 16vw));
     margin: 0 auto;
 }
 

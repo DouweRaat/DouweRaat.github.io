@@ -5,7 +5,7 @@ legoImages = ['images/LEGO1.png', 'images/LEGO2.jpg', 'images/LEGO3.png', 'image
 var legoIndex = 1;
 
 holoImage = document.getElementById('HOLOimage');
-holoImages = ['images/HOLO1.jpg', 'images/HOLO2.jpg'];
+holoImages = ['images/HOLO1.jpg', 'images/HOLO2.png', 'images/HOLO3.jpg','images/HOLO4.png'];
 var holoIndex = 1;
 
 questImage = document.getElementById('QUESTimage');
