@@ -1,8 +1,17 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 header {
+    background-color: #304D6D;
+}
+
+a {
+    color: white;
+}
+
+#headerText {
     max-width: 70vw;
     margin: 0 auto;
     padding: 20px;
@@ -11,17 +20,21 @@ header {
     grid-template-columns: 50% 50%;
 }
 
-header > h1 {
+#headerText > h1 {
     width: 100%;
     font-size: calc(min(15vh, 16vw));
     margin: 0 auto;
 }
 
-header > p {
+#headerText > p {
     font-size: calc(min(3vh, 4.5vw));
 }
 
 footer {
+    background-color: #82A0BC;
+}
+
+#footerContent {
     width: 15%;
     margin: 0 auto;
     padding: 20px;
@@ -63,7 +76,7 @@ footer {
 .smallImage {
     width: calc(33% - 10px);
     height: auto;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: inline-block;
     object-fit: cover;
     border-radius: 10px;
@@ -83,12 +96,13 @@ footer {
     overflow: auto; /* Enable scroll if needed */
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    color: black;
 }
 
 /* Modal Content */
 .modal-content {
     position: relative;
-    background-color: #fefefe;
+    background-color: #ffffff;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
@@ -102,7 +116,7 @@ footer {
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #545E75;
     color: white;
 }
 
@@ -114,21 +128,21 @@ footer {
 /* Modal Footer */
 .modal-footer {
     padding: 2px 16px;
-    background-color: #5cb85c;
+    background-color: #7e8db0;
     color: white;
 }
 
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: white;
     float: right;
-    font-size: 28px;
+    font-size: 3vw;
     font-weight: bold;
 }
 
 .close:hover,
 .close:focus {
-    color: black;
+    color: darkgrey;
     text-decoration: none;
     cursor: pointer;
 }
@@ -185,7 +199,8 @@ footer {
     .smallImage {
         width: 75%;
         height: auto;
-        margin-right: 10px;
+        margin-right: 4vw;
+        margin-bottom: 0;
         scroll-snap-align: center;
     }
 
@@ -193,22 +208,22 @@ footer {
         margin-right: 0;
     }
 
-    header {
+    #headerText {
         max-width: 97vw;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
-        margin-bottom: 10vw;
+        margin-bottom: 3vw;
     }
 
-    header > h1 {
+    #headerText > h1 {
         margin-bottom: 0px;
     }
 
-    header > p {
+    #headerText > p {
         margin: 0 auto;
     }
 
-    footer {
+    #footerContent {
         width: 50%;
         grid-gap: 3vw;
     }
@@ -218,7 +233,7 @@ footer {
     }
 
     .close {
-        font-size: 50px;
+        font-size: 12vw;
     }
 
     /* h1 {
