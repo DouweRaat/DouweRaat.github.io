@@ -23,18 +23,28 @@ a {
     flex-direction: row;
 }
 
-#headerText > div {
+#headerTitle {
     margin-right: 6vw;
 }
 
-#headerText > div > h1 {
+#aboutMe {
+    margin-top: 3vh;
+}
+
+#headerTitle > h1 {
     width: 100%;
     font-size: calc(min(15vh, 16vw));
     margin: 0 auto;
 }
 
-#headerText > p {
+#aboutMe > h3 {
+    font-size: calc(min(5vh, 6vw));
+    margin: 0 auto;
+}
+
+#aboutMe > p {
     font-size: calc(min(3vh, 4.5vw));
+    margin: 0 auto;
 }
 
 footer {
@@ -205,12 +215,12 @@ footer {
         margin-bottom: 0;
     }
 
-    #headerText > div {
+    #headerTitle {
         margin-right: 0;
         margin-bottom: 2vw;
     }
 
-    #headerText > p {
+    #aboutMe {
         margin: 0 auto;
     }
 
