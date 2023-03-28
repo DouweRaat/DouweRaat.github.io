@@ -42,6 +42,7 @@ footer {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1vw;
+    justify-content: center;
 }
 
 .logo {
@@ -83,6 +84,14 @@ footer {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
 }
+
+/* .bigImage, .smallImage{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+} */
 
 /* The Modal (background) */
 .modal {
@@ -153,11 +162,6 @@ footer {
     to {top: 0; opacity: 1}
 }
 
-/* #LEGOimage, #HOLOimage, #QUESTimage, #BOBimage, #CPPimage {
-    animation: imageFade 5s infinite;
-    animation-delay: 2.5s;
-} */
-
 @media (min-aspect-ratio: 4/3) {
     .bigImage:hover {
         transform: scale(1.05);
@@ -167,23 +171,6 @@ footer {
         transform: scale(1.05);
     }
 
-    /* h1 {
-        font-size: 7vw;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    
-    p {
-        font-size: 1.5vw;
-        margin-top: 0px;
-        margin-left: 0px;
-    } */
-    
-    /* .logo {
-        max-width: 5%;
-        max-height: auto;
-        margin-right: 1vw;
-    } */
 }
 
 @media (max-aspect-ratio: 4/3) {
@@ -191,6 +178,8 @@ footer {
         max-width: 97vw;
         flex-wrap: nowrap;
         overflow-x: scroll;
+        margin-top: 3vw;
+        margin-bottom: 3vw;
         -webkit-overflow-scrolling: touch;
         scroll-snap-type: x mandatory;
     }
@@ -212,11 +201,11 @@ footer {
         max-width: 97vw;
         grid-template-columns: 100%;
         grid-template-rows: 50% 50%;
-        margin-bottom: 3vw;
+        margin-bottom: 0;
     }
 
     #headerText > h1 {
-        margin-bottom: 0px;
+        margin-bottom: 0;
     }
 
     #headerText > p {
@@ -235,30 +224,4 @@ footer {
     .close {
         font-size: 12vw;
     }
-
-    /* h1 {
-        font-size: 20vw;
-        margin-top: 0px;
-        margin-bottom: 0px;
-    }
-    
-    p {
-        font-size: 4vw;
-    } */
-    
-    /* .logo {
-        max-width: 15%;
-        max-height: auto;
-        margin-right: 1vw;
-    } */
 }
-
-/* @keyframes imageFade {
-    40%, 60% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0;
-    }
-} */
