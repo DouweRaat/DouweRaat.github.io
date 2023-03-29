@@ -53,7 +53,7 @@ footer {
 }
 
 #footerContent {
-    width: 15%;
+    width: calc(min(30vh, 15vw));
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
@@ -225,7 +225,7 @@ footer {
     }
 
     #footerContent {
-        width: 50%;
+        width: calc(min(20vh, 50vw));
         grid-gap: 3vw;
     }
 
