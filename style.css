@@ -107,7 +107,6 @@ footer {
     transition: transform 0.3s ease-in-out;
 }
 
-/* The Modal (background) */
 .modal {
     display: none;
     position: fixed;
