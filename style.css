@@ -5,11 +5,19 @@ body {
     display: flex;
     flex-direction: column;
     background: white;
-    font-size: calc(min(3vh, 4.5vw));
 }
 
 header {
     background-color: #304D6D;
+}
+
+a {
+    color: white;
+}
+
+a:hover,
+a:focus {
+    color: lightgrey;
 }
 
 #headerText {
@@ -25,14 +33,14 @@ header {
     margin-right: 6vw;
 }
 
+#aboutMe {
+    margin-top: 3vh;
+}
+
 #headerTitle > h1 {
     width: 100%;
     font-size: calc(min(15vh, 16vw));
     margin: 0 auto;
-}
-
-#aboutMe {
-    margin-top: 3vh;
 }
 
 #aboutMe > h3 {
@@ -41,7 +49,32 @@ header {
 }
 
 #aboutMe > p {
+    font-size: calc(min(3vh, 4.5vw));
     margin: 0 auto;
+}
+
+footer {
+    background-color: #82A0BC;
+    margin-top: auto;
+}
+
+#footerContent {
+    width: calc(min(30vh, 15vw));
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1vw;
+    justify-content: center;
+}
+
+.logo {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .container {
@@ -75,30 +108,6 @@ header {
     transition: transform 0.3s ease-in-out;
 }
 
-footer {
-    background-color: #82A0BC;
-    margin-top: auto;
-}
-
-#footerContent {
-    width: calc(min(30vh, 15vw));
-    margin: 0 auto;
-    padding: 20px;
-    box-sizing: border-box;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    grid-gap: 1vw;
-    justify-content: center;
-}
-
-.logo {
-    max-width: 100%;
-    max-height: auto;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .modal {
     display: none;
     position: fixed;
@@ -121,6 +130,7 @@ footer {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
     animation-name: animatetop;
     animation-duration: 0.4s;
+    font-size: calc(min(3vh, 4.5vw));
 }
 
 .modal-header {
@@ -137,15 +147,6 @@ footer {
     padding: 2px 16px;
     background-color: #7e8db0;
     color: white;
-}
-
-.modal-footer > p > a {
-    color: white;
-}
-
-.modal-footer > p > a:hover,
-.modal-footer > p > a:focus {
-    color: lightgrey;
 }
 
 .close {
@@ -179,21 +180,6 @@ footer {
 }
 
 @media (max-aspect-ratio: 4/3) {
-    #headerText {
-        max-width: 97vw;
-        flex-direction: column;
-        margin-bottom: 0;
-    }
-
-    #headerTitle {
-        margin-right: 0;
-        margin-bottom: 2vw;
-    }
-
-    #aboutMe {
-        margin: 0 auto;
-    }
-    
     .container {
         max-width: 97vw;
         flex-wrap: nowrap;
@@ -218,8 +204,23 @@ footer {
         margin-right: 0;
     }
 
+    #headerText {
+        max-width: 97vw;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    #headerTitle {
+        margin-right: 0;
+        margin-bottom: 2vw;
+    }
+
+    #aboutMe {
+        margin: 0 auto;
+    }
+
     #footerContent {
-        width: calc(min(25vh, 45vw));
+        width: calc(min(20vh, 50vw));
         grid-gap: 3vw;
     }
 
