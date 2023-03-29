@@ -4,6 +4,7 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background: white;
 }
 
 header {
@@ -186,12 +187,13 @@ footer {
         margin-top: 3vw;
         margin-bottom: 3vw;
         -webkit-overflow-scrolling: touch;
+        overflow: scroll;
         scroll-snap-type: x mandatory;
     }
 
     .bigImage,
     .smallImage {
-        width: 75%;
+        width: 75vw;
         height: auto;
         margin-right: 4vw;
         margin-bottom: 0;

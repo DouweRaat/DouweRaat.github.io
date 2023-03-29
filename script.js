@@ -1,5 +1,4 @@
 //<------------------------------------------------ Image switcher ------------------------------------------------------------>
-
 var elements = [document.getElementById('LEGOimage'), document.getElementById('HOLOimage'), questImage = document.getElementById('QUESTimage'), bobImage = document.getElementById('BOBimage'), cppImage = document.getElementById('CPPimage')];
 var images = [['images/LEGO1.png', 'images/LEGO2.jpg', 'images/LEGO3.png', 'images/LEGO4.jpg'], ['images/HOLO1.jpg', 'images/HOLO2.png', 'images/HOLO3.jpg','images/HOLO4.jpg', 'images/HOLO5.png'], ['images/QUEST1.png', 'images/QUEST2.png'], ['images/BOB1.PNG', 'images/BOB2.PNG', 'images/BOB3.PNG', 'images/BOB4.PNG', 'images/BOB5.PNG', 'images/BOB6.PNG', 'images/BOB7.PNG', 'images/BOB8.PNG', 'images/BOB9.PNG'], ['images/C++1.svg.png', 'images/C++2.jpg']];
 var indexes = [1, 1, 1, 1, 1];
